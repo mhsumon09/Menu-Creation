@@ -44,13 +44,14 @@ a {
 
 .menu ul li ul {
     position: absolute;
-    background: crimson;
+    /* background: crimson; */
     width: 335px;
     left: -10px;
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s linear 0s;
     transform: scaleX(0);
+    z-index: 2;
 }
 
 .menu ul li:hover>ul {
